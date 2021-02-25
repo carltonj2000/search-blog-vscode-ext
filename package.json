@@ -1,7 +1,8 @@
 {
-  "name": "search-blog-example",
-  "displayName": "Search Blog Example",
+  "name": "search-blog-vscode-ext",
+  "displayName": "Search Blog VSCode Extension Example",
   "description": "",
+  "publisher": "AppsForTracking",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.53.0"
@@ -10,14 +11,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:search-blog-example.helloWorld"
+    "onCommand:search-blog-example.searchWdsBlog"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "search-blog-example.helloWorld",
-        "title": "Hello World"
+        "command": "search-blog-example.searchWdsBlog",
+        "title": "Search WDS Blog"
       }
     ]
   },
@@ -36,5 +37,9 @@
     "mocha": "^8.2.1",
     "typescript": "^4.1.3",
     "vscode-test": "^1.5.0"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.18.0",
+    "node-fetch": "^2.6.1"
   }
 }
