@@ -3,6 +3,10 @@
   "displayName": "Search Blog VSCode Extension Example",
   "description": "",
   "publisher": "AppsForTracking",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carltonj2000/search-blog-vscode-ext"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.53.0"
